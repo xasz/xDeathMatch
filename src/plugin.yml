@@ -1,0 +1,19 @@
+ name: xDeathMatch
+ version: 0.1
+ description: Deathmatch Plugin for Minecraft
+ author: xasz
+ main: me.xasz.xDeathMatch.xDeathMatch
+ commands:
+   xdm:
+     description: start <killlimit>, cancel, stop
+     usage: /<command>
+ permissions:
+  xDeathMatch.start:
+    description: starts a match with killlimit of x
+    default: true
+  xDeathMatch.cancel:
+    description: cancels current match
+    default: true
+  xDeathMatch.stop:
+    description: stops current match 
+    default: true
